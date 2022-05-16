@@ -8,9 +8,9 @@ services:
     command: sh -c "cd src && yarn dev"
     ports:
       - "3000:3000"
-  crawler:
-    build:
-      context: .
-      dockerfile: Dockerfile.crawler
-    volumes:
-      - ./crawler/:/project
+  # crawler:
+    # build:
+      # context: .
+      # dockerfile: Dockerfile.crawler
+    # volumes:
+      # - ./crawler/:/project
