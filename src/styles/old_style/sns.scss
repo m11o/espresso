@@ -1,0 +1,25 @@
+#sns-box {
+  margin-top: 50px;
+}
+
+#sns-box ul li {
+  float: left;
+  margin-left: 10px;
+  list-style-type: none;
+}
+
+#ns-box ul li:first-child {
+  margin-left: 0px;
+}
+
+#sns-box ul li.facebook .fb_iframe_widget span {
+  vertical-align: top !important;
+}
+
+#sns-box ul li.googleplus {
+  width: 70px;
+}
+
+#sns-box ul li iframe {
+  max-width: none;
+}
