@@ -1,0 +1,109 @@
+.menu-01-pc {
+  font-size: 14px;
+}
+
+.menu-01-pc .menu-01-pc-left {
+  float: left;
+  width: 66%;
+}
+
+.menu-01-pc .nav-list {
+  margin-bottom: 40px;
+}
+
+.menu-01-pc .nav-list ul li {
+  margin-bottom: 15px;
+}
+
+.menu-01-pc .menu-01-pc-center .nav-list ul li {
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+}
+
+.menu-01-pc .menu-01-pc-left .nav-list ul li {
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+}
+
+.menu-01-pc .menu-01-pc-right {
+  float: right;
+  width: 29%;
+}
+
+.menu-01-pc .menu-01-pc-bottom {
+  float: left;
+  margin: 0 1%;
+  padding-bottom: 50px;
+  width: 31%;
+}
+
+.menu-01-pc .menu-01-pc-bottom .fb-like-box {
+  margin-bottom: 20px;
+}
+
+.menu-01-pc .menu-01-pc-bottom .fb-like-box iframe {
+  width: 100%;
+}
+
+.menu-01-pc .menu-bnr li {
+  margin-bottom: 20px;
+}
+
+#global-header-main-pc-2 .menu-01-pc {
+  display: none;
+  position: fixed;
+  background: #fff;
+  overflow: auto;
+  z-index: 100;
+  left: 0;
+  width: 100%;
+}
+
+#global-header-main-pc-2.fixed .menu-01-pc {
+  top: 120px;
+}
+
+#global-footer2 .menu-01-pc-bottom {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .menu-01-pc .menu-01-pc-left {
+    width: 100%;
+  }
+
+  .menu-01-pc .menu-01-pc-right {
+    width: 100%;
+  }
+
+  .menu-01-pc .menu-01-pc-left .nav-list ul li {
+    width: 100%;
+  }
+
+  .menu-01-pc .menu-01-pc-bottom {
+    margin: 0;
+    padding-bottom: 50px;
+    width: 100%;
+  }
+
+  #global-footer2 .menu-01-pc {
+    display: none;
+  }
+}
+
+
+.except-more.design-menu-original #global-header #global-header-main-sp #global-header-main-sp-right #menu_btn {
+  background-image: url(https://www.ito-spo.com) !important;
+}
+
+.except-more.design-menu-original.design-menu-close #global-header #global-header-main-sp #global-header-main-sp-right #menu_btn.close {
+  background-image: url(https://www.ito-spo.com) !important;
+}
+
+.design-check-original .list-block ul.check li,
+.design-check-original .entry-content .editor ul li {
+  background: url(https://www.ito-spo.com) no-repeat left 4px;
+  background-size: 20px 20px;
+}
