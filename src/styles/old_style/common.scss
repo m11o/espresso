@@ -1,0 +1,87 @@
+body {
+  font-size: 16px;
+
+  &.site-font-gothic {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", Osaka, sans-serif;
+  }
+  &.site-font-mincho {
+    font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  }
+
+  .inner {
+    display: block;
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  iframe {
+    max-width: 100%;
+  }
+}
+
+#site {
+  margin: 0 auto;
+  min-width: 960px;
+  overflow: hidden;
+}
+
+.sp-area {
+  display: none;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+}
+
+/* WinIE7 only */
+*:first-child+html .clearfix {
+  height: 1%;
+}
+
+/* WinIE6 and below */
+/* hide \*/
+* html .clearfix {
+  height: 1%;
+}
+
+@media screen and (min-width:601px) {
+  body.no-scroll-pc {
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width:600px) {
+  #site {
+    min-width: 0;
+  }
+
+  body .inner {
+    padding: 0 3%;
+    width: auto;
+  }
+
+  body.no-scroll-sp {
+    overflow: hidden;
+  }
+
+  .pc-area {
+    display: none;
+  }
+
+  .sp-area {
+    display: block;
+  }
+
+  #window-size-check {
+    display: none;
+  }
+}
