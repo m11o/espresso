@@ -1,0 +1,715 @@
+#global-header {
+  position: relative;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+#global-header .site-title {
+  margin-bottom: 10px;
+  padding: 5px 0;
+  width: 100%;
+  font-size: 12px;
+}
+
+#global-header #global-header-main-pc #global-header-main-pc-left,
+#global-footer #global-footer-main-pc #global-footer-main-pc-left {
+  float: left;
+  width: 44%;
+}
+
+#global-header #global-header-main-pc #global-header-main-pc-left .logo,
+#global-footer #global-footer-main-pc #global-footer-main-pc-left .logo {
+  margin-bottom: 20px;
+}
+
+#global-header #global-header-main-pc #global-header-main-pc-left .address,
+#global-footer #global-footer-main-pc #global-footer-main-pc-left .address {
+  word-break: break-all;
+}
+
+#global-header #global-header-main-pc #global-header-main-pc-right,
+#global-footer #global-footer-main-pc #global-footer-main-pc-right {
+  float: right;
+  width: 43%;
+}
+
+#global-header #global-header-main-pc #global-header-main-pc-right .tel,
+#global-footer #global-footer-main-pc #global-footer-main-pc-right .tel,
+#main #content-footer .tel {
+  display: block;
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+#global-header #global-header-main-pc #global-header-main-pc-right .tel,
+#global-footer #global-footer-main-pc #global-footer-main-pc-right .tel {
+  line-height: 0;
+}
+
+#global-header #global-header-main-pc #global-header-main-pc-right .tel .tel-text,
+#global-footer #global-footer-main-pc #global-footer-main-pc-right .tel .tel-text,
+#main #content-footer .tel .tel-number {
+  display: inline-block;
+  padding-left: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  word-break: break-all;
+  line-height: 1.2;
+}
+
+#global-header #global-header-main-pc #global-header-main-pc-right .tel .tel-number,
+#global-footer #global-footer-main-pc #global-footer-main-pc-right .tel .tel-number,
+#main #content-footer .tel .tel-number {
+  display: inline-block;
+  padding-left: 30px;
+  background-image: url(https://theme.selfull.jp/images/common/tel-icon-pc.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  word-break: break-word;
+  line-height: 1.2;
+}
+
+#global-header #global-header-main-pc #global-header-main-pc-right .mail,
+#global-footer #global-footer-main-pc #global-footer-main-pc-right .mail,
+#main #content-footer .mail {
+  display: inline-block;
+  width: 94%;
+  margin-bottom: 5px;
+  padding: 0 3%;
+  border-radius: 4px;
+  background: #e52429;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #e52429 0%, #e52429 48%, #bb0f0f 50%, #bb0f0f 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e52429), color-stop(48%, #e52429), color-stop(50%, #bb0f0f), color-stop(100%, #bb0f0f));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #e52429 0%, #e52429 48%, #bb0f0f 50%, #bb0f0f 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #e52429 0%, #e52429 48%, #bb0f0f 50%, #bb0f0f 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #e52429 0%, #e52429 48%, #bb0f0f 50%, #bb0f0f 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #e52429 0%, #e52429 48%, #bb0f0f 50%, #bb0f0f 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e52429', endColorstr='#bb0f0f', GradientType=0);
+  /* IE6-9 */
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 3px 0px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px #6B0000;
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFF;
+}
+
+#global-header #global-header-main-pc #global-header-main-pc-right .mail span,
+#global-footer #global-footer-main-pc #global-footer-main-pc-right .mail span,
+#main #content-footer .mail span {
+  display: inline-block;
+  padding: 10px 0 10px 35px;
+  background-image: url(https://theme.selfull.jp/images/common/mail-icon.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+#global-header #global-header-main-pc #global-header-main-pc-right .line_btn,
+#global-footer #global-footer-main-pc #global-footer-main-pc-right .line_btn,
+#main #content-footer .line_btn {
+  display: inline-block;
+  width: 94%;
+  margin-bottom: 5px;
+  padding: 0 3%;
+  border-radius: 4px;
+  background: #e52429;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #15b817 0%, #15b817 48%, #029403 50%, #029403 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #15b817), color-stop(48%, #15b817), color-stop(50%, #029403), color-stop(100%, #029403));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #15b817 0%, #15b817 48%, #029403 50%, #029403 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #15b817 0%, #15b817 48%, #029403 50%, #029403 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #15b817 0%, #15b817 48%, #029403 50%, #029403 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #15b817 0%, #15b817 48%, #029403 50%, #029403 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#15b817', endColorstr='#029403', GradientType=0);
+  /* IE6-9 */
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 3px 0px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px #023b02;
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFF;
+}
+
+#global-header #global-header-main-pc #global-header-main-pc-right .line_btn.line_half,
+#global-footer #global-footer-main-pc #global-footer-main-pc-right .line_btn.line_half,
+#main #content-footer .line_btn.line_half {
+  width: 43%;
+}
+
+#global-header #global-header-main-pc #global-header-main-pc-right .line_btn span,
+#global-footer #global-footer-main-pc #global-footer-main-pc-right .line_btn span,
+#main #content-footer .line_btn span {
+  display: inline-block;
+  padding: 10px 0 10px 35px;
+  background-image: url(https://theme.selfull.jp/images/common/line-icon.png);
+  background-size: 23px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+#global-header #global-header-main-pc #global-header-main-pc-right .mail.mail_half,
+#global-footer #global-footer-main-pc #global-footer-main-pc-right .mail.mail_half,
+#main #content-footer .mail.mail_half {
+  width: 43%;
+}
+
+#global-header #global-header-main-pc #global-header-main-pc-right .info,
+#global-footer #global-footer-main-pc #global-footer-main-pc-right .info,
+#main #content-footer .info {
+  text-align: left;
+}
+
+#global-header #global-header-main-pc #global-header-main-pc-right .info dl,
+#global-footer #global-footer-main-pc #global-footer-main-pc-right .info dl,
+#main #content-footer .info ul {
+  overflow: hidden;
+  padding-top: 10px;
+  clear: both;
+}
+
+#global-header #global-header-main-pc #global-header-main-pc-right .info dl dt,
+#global-footer #global-footer-main-pc #global-footer-main-pc-right .info dl dt,
+#main #content-footer .info dl dt {
+  float: left;
+  width: 15%;
+  padding: 2px 1px;
+  background: #555555;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+}
+
+#global-header #global-header-main-pc #global-header-main-pc-right .info dl dd,
+#global-footer #global-footer-main-pc #global-footer-main-pc-right .info dl dd,
+#main #content-footer .info dl dd {
+  float: right;
+  width: 82%;
+  word-break: break-word;
+}
+
+
+#global-header #global-header-main-pc-2 {
+  position: relative;
+  margin-top: 30px;
+}
+
+#global-header #global-header-main-pc-2.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 30px 0px;
+  width: 960px;
+  min-height: 70px;
+  z-index: 100;
+}
+
+#global-header #global-header-main-pc-2 #global-header-main-pc-center {
+  width: 600px;
+  margin: 0 auto;
+}
+
+#global-header #global-header-main-pc-2 #global-header-main-pc-center .logo {
+  text-align: center;
+}
+
+#global-header #global-header-main-pc-2.fixed #global-header-main-pc-center .site-title {
+  display: none;
+}
+
+#global-header #global-header-main-pc-2.fixed #global-header-main-pc-center .logo img {
+  max-height: 120px;
+}
+
+#global-header #global-header-main-pc-2 #global-header-main-pc-center .site-title {
+  text-align: center;
+}
+
+#global-header #global-header-main-pc-2 .menu-btn {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  cursor: pointer;
+}
+
+#global-header #global-header-main-pc-2 .menu-btn .open {
+  height: 53px;
+  width: 50px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#global-header #global-header-main-pc-2 .menu-btn .close {
+  display: none;
+  height: 53px;
+  width: 50px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#global-header #global-nav-pc.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px 0px;
+  z-index: 100;
+}
+
+#global-header #global-header-main-sp {
+  display: none;
+}
+
+#global-header #announcement {
+  margin: 10px 0 5px;
+  padding: 5px 3%;
+  border: solid 1px #af779c;
+  background-color: #fbe9f9;
+  font-weight: bold;
+  text-align: center;
+  word-break: break-all;
+  color: #bb0f0f;
+}
+
+#global-header #global-nav-pc {
+  margin-top: 10px;
+  background-color: #666;
+  border-bottom: solid 1px #000;
+  overflow: hidden;
+}
+
+#global-header #global-nav-pc ul {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#global-header #global-nav-pc ul li {
+  position: relative;
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+#global-header #global-nav-pc ul li a:after {
+  content: " ";
+  position: absolute;
+  top: 15%;
+  right: 0;
+  height: 70%;
+  border-right: solid 1px #333;
+}
+
+#global-header #global-nav-pc ul li:nth-child(5) a:after,
+#global-header #global-nav-pc ul li:nth-child(10) a:after,
+#global-header #global-nav-pc ul li:nth-child(15) a:after {
+  border: none;
+}
+
+#global-header #global-nav-pc ul li a {
+  display: block;
+  padding: 16px 5px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#global-header #global-nav-pc ul li a:hover {
+  opacity: 0.6;
+}
+
+#global-header #global-nav-sp {
+  display: none;
+}
+
+#sp-menu {
+  display: none;
+}
+
+
+@media screen and (max-width:600px) {
+  #global-header {
+    margin: 0;
+  }
+
+  #global-header .site-title {
+    overflow: hidden;
+  }
+
+  #global-header #global-header-main-pc {
+    display: none;
+  }
+
+  #global-header #global-header-main-pc-2 {
+    display: none;
+  }
+
+  #global-header #global-header-main-sp {
+    display: block;
+    padding-bottom: 5px;
+  }
+
+  #global-header #global-header-main-sp.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 5px 3%;
+    width: 94%;
+    background-color: #ffffffeb;
+    box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px 0px;
+    z-index: 100;
+  }
+
+  #global-header #global-header-main-sp #global-header-main-sp-left {
+    float: left;
+    width: 70%;
+  }
+
+  #global-header #global-header-main-sp #global-header-main-sp-right {
+    float: right;
+    width: 15%;
+  }
+
+  #global-header #global-header-main-sp #global-header-main-sp-right .tel {
+    display: block;
+    padding: 5px 2%;
+    border-radius: 4px;
+    border: solid 1px #2eb10b;
+    background: #67d125;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #67d125 0%, #0c7f01 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #67d125), color-stop(100%, #0c7f01));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #67d125 0%, #0c7f01 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #67d125 0%, #0c7f01 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #67d125 0%, #0c7f01 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #67d125 0%, #0c7f01 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#67d125', endColorstr='#0c7f01', GradientType=0);
+    /* IE6-9 */
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #01401B;
+    color: #FFF;
+    line-height: 2;
+  }
+
+  #global-header #global-header-main-sp #global-header-main-sp-right .tel span {
+    padding: 10px 10px 10px 20px;
+    background-image: url(https://theme.selfull.jp/images/common/tel-icon-sp.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+  }
+
+  #global-header #global-header-main-sp #global-header-main-sp-right #menu_btn {
+    display: block;
+    width: 100%;
+    padding-top: 100%;
+    background-image: url(https://theme.selfull.jp/images/common/fh-menu-open.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+  }
+
+  #sp-menu {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -105%;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    z-index: 101;
+  }
+
+  #sp-menu #sp-menu-contents {
+    width: 80%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #FFF;
+    box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px 0px;
+    border-radius: 4px 4px 0 0;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #sp-menu #sp-menu-contents .side-bnr {
+    margin-top: 10px;
+  }
+
+  #sp-menu #sp-menu-lightbox {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0;
+    z-index: 1;
+  }
+
+  #global-header #announcement {
+    text-align: left;
+  }
+
+  #global-header #global-nav-pc {
+    display: none;
+  }
+
+  #global-header #global-nav-sp {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    border-top: 1px solid #fff;
+  }
+
+  #global-header #global-nav-sp.fixed {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 100
+  }
+
+  #global-header #global-nav-sp.fixed.inactive {
+    display: none !important;
+  }
+
+  #global-header.sp-fixed-pattern-2.header-fixed-sp #global-header-main-sp.fixed {
+    top: inherit;
+    bottom: 0;
+    background: inherit !important;
+    border: none !important;
+  }
+
+  #global-header.sp-fixed-pattern-2.header-fixed-sp #global-header-main-sp.fixed #global-header-main-sp-left p {
+    display: none;
+  }
+
+  #global-header.sp-fixed-pattern-2.header-fixed-sp #global-nav-sp.fixed {
+    top: 0;
+    bottom: inherit;
+    margin-top: 0;
+  }
+
+  #global-header #global-nav-sp .ff-sp-head {
+    width: 100%;
+    padding-top: 6.25%;
+    background-size: contain;
+    background-position: center center;
+  }
+
+  #global-header #global-nav-sp #ff-sp-head-01 {
+    background-image: url(https://theme.selfull.jp/images/common/ff-sp-01-head.png);
+  }
+
+  #global-header #global-nav-sp #ff-sp-head-02 {
+    background-image: url(https://theme.selfull.jp/images/common/ff-sp-02-head.png);
+  }
+
+  #global-header #global-nav-sp #ff-sp-head-03 {
+    background-image: url(https://theme.selfull.jp/images/common/ff-sp-03-head.png);
+  }
+
+  #global-header #global-nav-sp #ff-sp-head-04 {
+    background-image: url(https://theme.selfull.jp/images/common/ff-sp-04-head.png);
+  }
+
+  #global-header #global-nav-sp #ff-sp-contents {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4px 2.5% 5px 2.5%;
+    font-size: 0;
+    text-align: center;
+  }
+
+  #global-header #global-nav-sp #ff-sp-contents a {
+    display: inline-block;
+    line-height: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: baseline;
+  }
+
+  #global-header #global-nav-sp #ff-sp-contents a#ff-sp-01-tel {
+    width: 100%;
+    padding-top: 15%;
+    background-image: url(https://theme.selfull.jp/images/common/ff-sp-01-tel.png);
+  }
+
+  #global-header #global-nav-sp #ff-sp-contents a#ff-sp-02-tel {
+    width: 49%;
+    padding-top: 15%;
+    background-image: url(https://theme.selfull.jp/images/common/ff-sp-02-tel.png);
+    margin-right: 2%;
+  }
+
+  #global-header #global-nav-sp #ff-sp-contents a#ff-sp-02-web {
+    width: 49%;
+    padding-top: 15%;
+    background-image: url(https://theme.selfull.jp/images/common/ff-sp-02-web.png);
+  }
+
+  #global-header #global-nav-sp #ff-sp-contents a#ff-sp-03-tel {
+    width: 49%;
+    padding-top: 15%;
+    background-image: url(https://theme.selfull.jp/images/common/ff-sp-03-tel.png);
+    margin-right: 2%;
+  }
+
+  #global-header #global-nav-sp #ff-sp-contents a#ff-sp-03-line {
+    width: 49%;
+    padding-top: 15%;
+    background-image: url(https://theme.selfull.jp/images/common/ff-sp-03-line.png);
+  }
+
+  #global-header #global-nav-sp #ff-sp-contents a#ff-sp-04-tel {
+    width: 49%;
+    padding-top: 15%;
+    background-image: url(https://theme.selfull.jp/images/common/ff-sp-04-tel.png);
+    margin-right: 2%;
+  }
+
+  #global-header #global-nav-sp #ff-sp-contents a#ff-sp-04-web {
+    width: 24%;
+    padding-top: 15%;
+    background-image: url(https://theme.selfull.jp/images/common/ff-sp-04-web.png);
+    margin-right: 1%;
+  }
+
+  #global-header #global-nav-sp #ff-sp-contents a#ff-sp-04-line {
+    width: 24%;
+    padding-top: 15%;
+    background-image: url(https://theme.selfull.jp/images/common/ff-sp-04-line.png);
+  }
+
+  #global-header #global-nav-sp #ff-sp-contents.ff-sp-contents-original-1,
+  #global-header #global-nav-sp #ff-sp-contents.ff-sp-contents-original-2 {
+    padding-top: 6px;
+  }
+
+  #global-header #global-nav-sp #ff-sp-contents.ff-sp-contents-original-2 a {
+    margin: 0 1%;
+    width: 48%;
+  }
+
+  #global-header #global-nav-sp #ff-sp-contents.ff-sp-contents-original-1 a img,
+  #global-header #global-nav-sp #ff-sp-contents.ff-sp-contents-original-2 a img {
+    max-height: 150px;
+    width: 100%;
+  }
+
+  #global-header #global-nav-sp #ff-sp-contents.ff-sp-contents-original-3 a {
+    margin: 0 1%;
+    width: 23%;
+  }
+
+  #global-header #global-nav-sp #ff-sp-contents.ff-sp-contents-original-3 a:first-child {
+    margin: 0 1%;
+    width: 48%;
+  }
+
+
+  #global-header #global-nav-sp.space0 {
+    border-top: none;
+    background: none;
+  }
+
+  #global-header #global-nav-sp.space0 .ff-sp-head {
+    display: none;
+  }
+
+  #global-header #global-nav-sp.space0 #ff-sp-contents {
+    padding: 0;
+  }
+
+  #global-header #global-nav-sp.space0 #ff-sp-contents a {
+    background-size: cover;
+    background-position: bottom center;
+  }
+
+  #global-header #global-nav-sp.space0 #ff-sp-contents a#ff-sp-02-tel {
+    width: 50%;
+    margin: 0;
+    padding-top: 16%;
+  }
+
+  #global-header #global-nav-sp.space0 #ff-sp-contents a#ff-sp-02-web {
+    width: 50%;
+    margin: 0;
+    padding-top: 16%;
+  }
+
+  #global-header #global-nav-sp.space0 #ff-sp-contents a#ff-sp-03-tel {
+    width: 50%;
+    margin: 0;
+    padding-top: 16%;
+  }
+
+  #global-header #global-nav-sp.space0 #ff-sp-contents a#ff-sp-03-line {
+    width: 50%;
+    margin: 0;
+    padding-top: 16%;
+  }
+
+  #global-header #global-nav-sp.space0 #ff-sp-contents a#ff-sp-04-tel {
+    width: 50%;
+    margin: 0;
+    padding-top: 16%;
+  }
+
+  #global-header #global-nav-sp.space0 #ff-sp-contents a#ff-sp-04-web {
+    width: 25%;
+    margin: 0;
+    padding-top: 16%;
+  }
+
+  #global-header #global-nav-sp.space0 #ff-sp-contents a#ff-sp-04-line {
+    width: 25%;
+    margin: 0;
+    padding-top: 16%;
+  }
+
+  #global-header #global-nav-sp.space0 #ff-sp-contents.ff-sp-contents-original-1,
+  #global-header #global-nav-sp.space0 #ff-sp-contents.ff-sp-contents-original-2 {
+    margin: 0;
+  }
+
+  #global-header #global-nav-sp.space0 #ff-sp-contents.ff-sp-contents-original-2 a {
+    width: 50%;
+    margin: 0;
+  }
+
+  #global-header #global-nav-sp.space0 #ff-sp-contents.ff-sp-contents-original-3 a {
+    width: 25%;
+    margin: 0;
+  }
+
+  #global-header #global-nav-sp.space0 #ff-sp-contents.ff-sp-contents-original-3 a:first-child {
+    width: 50%;
+  }
+}
