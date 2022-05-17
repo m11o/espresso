@@ -1,6 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
 
+import { SITE_NAME } from './const'
+
 type HeadContentType = {
   title?: string,
   description?: string
@@ -11,7 +13,6 @@ const DEFAULT_TITLE = 'Homepage - Love Beautiful Code'
 const DEFAULT_DESCRIPTION = 'Masahito Osako\'s Homepage'
 const DEFAULT_KEYWORDS = ['']
 const DEFAULT_URL = 'https://www.ito-spo.com/'
-const SITE_NAME = 'アンドライフ整骨院・鍼灸院'
 const HeadContent: React.FC<HeadContentType> = ({ title, description, keywords, url }) => {
   if (!title) title = DEFAULT_TITLE
   if (!description) description = DEFAULT_DESCRIPTION

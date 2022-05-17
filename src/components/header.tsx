@@ -1,7 +1,8 @@
 import React from "react";
 import Link from "next/link";
 
-const SITE_TITLE = '首・肩・頭痛・産後骨盤矯正・骨格矯正といえばアンドライフ整骨院鍼灸院'
+import { SITE_TITLE, ZIP, ADDRESS, TEL, TEL_WITHOUT_HYPHEN, SITE_NAME } from "./const"
+
 const Header: React.FC = () => {
   return (
     <>
@@ -23,14 +24,14 @@ const Header: React.FC = () => {
                 </a>
               </p>
               <p className="address">
-                〒819-1102
+                {ZIP}
                 <br />
-                福岡県糸島市高田５-１-１６
+                {ADDRESS}
               </p>
             </div>
             <div id="global-header-main-pc-right">
               <p className="tel">
-                <span className="tel-number">092-332-2206</span>
+                <span className="tel-number">{TEL}</span>
               </p>
               <a
                 href="https://www.ito-spo.com/contact/"
@@ -78,7 +79,7 @@ const Header: React.FC = () => {
             </div>
             <div id="global-header-main-sp-right">
               <span id="menu_btn" className="hover"></span>
-              <a href="tel:0923322206" className="tel">
+              <a href={`tel:${TEL_WITHOUT_HYPHEN}`} className="tel">
                 <span>電話をかける</span>
               </a>
             </div>
@@ -133,7 +134,7 @@ const Header: React.FC = () => {
         <div id="global-nav-sp" className="fixed " role="navigation">
           <p id="ff-sp-head-03" className="ff-sp-head"></p>
           <div id="ff-sp-contents">
-            <a id="ff-sp-03-tel" className="" href="tel:0923322206"></a>
+            <a id="ff-sp-03-tel" className="" href={`tel:${TEL_WITHOUT_HYPHEN}`}></a>
             <a
               id="ff-sp-03-line"
               className=""
@@ -206,7 +207,7 @@ const Header: React.FC = () => {
             <h2>
               <img
                 src="https://www.ito-spo.com/wp-content/uploads/2021/11/5777edd641ee2628d33226ac11cac6ca1.png"
-                title="アンドライフ整骨院鍼灸院"
+                title={SITE_NAME}
                 alt=""
                 loading="lazy"
               />
@@ -223,10 +224,10 @@ const Header: React.FC = () => {
               <dd>日曜</dd>
             </dl>
 
-            <a href="tel:0923322206" className="tel tel-sp hover">
+            <a href={`tel:${TEL_WITHOUT_HYPHEN}`} className="tel tel-sp hover">
               <span>電話をかける</span>
             </a>
-            <p className="txt-c">（092-332-2206に発信します）</p>
+            <p className="txt-c">（{TEL}に発信します）</p>
 
             <div className="tel-flow">
               <h2>ご予約の流れ</h2>
