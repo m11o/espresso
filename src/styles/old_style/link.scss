@@ -1,0 +1,38 @@
+a {
+  &:link {
+    color: #333333;
+    text-decoration:underline;
+  }
+  &:visited {
+    color: #333333;
+    text-decoration:underline;
+  }
+  &:hover {
+    color: #333333;
+    text-decoration:none;
+  }
+  &:active {
+    color: #333333;
+    text-decoration:none;
+  }
+}
+#site {
+  a {
+    img {
+      transition: .3s;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+  .hover {
+    &:hover {
+      transition: .3s;
+      opacity: 0.7;
+    }
+  }
+}
+map area {
+	border: none;
+	outline: none;
+}
