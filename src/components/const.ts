@@ -4,6 +4,9 @@ const ADDRESS = '福岡県糸島市高田５-1-16'
 const ZIP = '〒819-1102'
 const TEL = '092-332-2206'
 const TEL_WITHOUT_HYPHEN = TEL.replaceAll('-', '')
+const WEEKDAY_BUSSINESS_HOURS = 'AM9:00~12:00 PM15:00~20:30'
+const WEEKEND_BUSSINESS_HOURS = 'AM9:00~12:00 PM15:00~19:00'
+const HOLIDAY_BUSSINESS_HOURS = 'AM9:00~12:00'
 
 export {
   SITE_TITLE,
