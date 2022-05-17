@@ -1,0 +1,121 @@
+#side {
+  width: 25%;
+}
+
+.side-bnr {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.side-bnr li {
+  margin-bottom: 10px;
+}
+
+.side-bnr li img {
+  max-width: 100%;
+  height: auto;
+}
+
+.side-free {
+  margin-bottom: 20px;
+}
+
+.side-nav {
+  margin-bottom: 20px;
+}
+
+.side-nav ul {
+  background-color: #FFF;
+}
+
+.side-nav ul li {
+  border-top: #dcdcdc 1px solid;
+}
+
+.side-nav ul li.hide {
+  display: none;
+}
+
+.side-nav ul li:first-child {
+  border-top: 0px;
+}
+
+.side-nav ul li a {
+  display: block;
+  padding: 12px 25px 12px 30px;
+  background-image: url(https://theme.selfull.jp/images/common/side-icon-arrow.png);
+  background-position: 15px center;
+  background-repeat: no-repeat;
+  text-decoration: none;
+}
+
+.side-nav ul li a:hover {
+  text-indent: 0.1rem;
+}
+
+.fb_iframe_widget {
+  display: block;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+.fb_iframe_widget span {
+  display: inline-block;
+}
+
+.ekiten {
+  overflow: hidden;
+  width: auto;
+  margin-bottom: 20px;
+  padding: 5px;
+  background: #F99;
+  border-radius: 5px;
+}
+
+.ekiten .ekiten-title {
+  margin: 0 5px 5px;
+}
+
+.ekiten iframe {}
+
+.ekiten .ekiten-logo {}
+
+.ekiten .ekiten-logo img {
+  width: 120px;
+}
+
+.side-ekiten {
+  margin-top: 10px;
+}
+
+#side.side2 {
+  display: none;
+}
+
+.side-free iframe.instagram-media {
+  min-width: auto !important;
+}
+
+#side .facebook2 {
+  position: absolute;
+  width: 80%;
+  top: -1000%;
+  z-index: -100;
+}
+
+@media screen and (max-width:600px) {
+  #side {
+    width: auto;
+  }
+
+  .ekiten {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+  #side.side2 {
+    display: block;
+    margin: 0 3%;
+  }
+}
