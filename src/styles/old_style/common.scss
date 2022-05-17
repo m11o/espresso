@@ -85,3 +85,7 @@ body {
     display: none;
   }
 }
+
+body p:empty:before {
+  content: none !important;
+}
