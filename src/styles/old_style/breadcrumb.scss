@@ -1,0 +1,45 @@
+#contents .breadcrumb {
+  margin: 10px 0 15px;
+  line-height: 1.2;
+  font-size: 14px;
+}
+
+@media screen and (max-width:600px) {
+  #contents {
+    width: auto;
+    padding: 0;
+  }
+
+  .main-img-pc {
+    display: none;
+  }
+
+  .main-img-sp {
+    display: block;
+  }
+
+  .main-img-2 {
+    margin-bottom: 20px;
+  }
+
+  .main-img-2 .text .editor {
+    padding: 10px 3%;
+  }
+
+  .main-img-2 .text {
+    bottom: 15px;
+  }
+
+  #contents .postWrap .postBlock .newsTit {
+    display: none;
+  }
+
+  #contents .postWrap .postBlock ul {
+    width: auto;
+    float: none;
+  }
+
+  .symptomscat #contents .breadcrumb {
+    display: none;
+  }
+}
