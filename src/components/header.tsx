@@ -1,14 +1,13 @@
 import React from "react";
 import Link from "next/link";
 
+const SITE_TITLE = '首・肩・頭痛・産後骨盤矯正・骨格矯正といえばアンドライフ整骨院鍼灸院'
 const Header: React.FC = () => {
   return (
     <>
       <header id="global-header">
         <h1 className="site-title">
-          <span className="inner">
-            首・肩・頭痛・産後骨盤矯正・骨格矯正といえばアンドライフ整骨院鍼灸院
-          </span>
+          <span className="inner">{SITE_TITLE}</span>
         </h1>
 
         <div className="inner">
