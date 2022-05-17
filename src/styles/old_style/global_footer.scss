@@ -1,0 +1,188 @@
+#global-footer {
+  margin-top: 30px;
+  min-width: 960px;
+  background: #FFF;
+}
+
+#global-footer.fixed {
+  padding-bottom: 135px;
+}
+
+#global-footer .inner {
+  padding: 20px 0 10px;
+}
+
+#global-footer #global-footer-nav {
+  overflow: hidden;
+  width: 100%;
+}
+
+#global-footer #global-footer-nav .inner {
+  padding: 15px 0 0;
+}
+
+#global-footer #global-footer-nav ul {
+  display: inline;
+  letter-spacing: -.40em;
+}
+
+#global-footer #global-footer-nav li {
+  display: inline;
+  vertical-align: top;
+  letter-spacing: -.40em;
+}
+
+#global-footer #global-footer-nav li a {
+  position: relative;
+  display: inline-block;
+  width: 218px;
+  margin-bottom: 8px;
+  padding-left: 18px;
+  vertical-align: top;
+  text-decoration: none;
+  list-style: circle inside;
+  letter-spacing: normal;
+  line-height: 1.2;
+}
+
+#global-footer #global-footer-nav li a:after {
+  content: "";
+  position: absolute;
+}
+
+#global-footer #global-footer-nav li a:hover {
+  text-decoration: underline;
+}
+
+#global-footer #global-footer-main-pc {
+  margin-top: 20px;
+  overflow: hidden;
+  width: 100%;
+  background-color: #E4E4E4;
+}
+
+#global-footer.fixed #global-footer-main-pc {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 85;
+}
+
+#global-footer #global-footer-main-pc #global-footer-main-pc-left {
+  width: 44%;
+}
+
+#global-footer #global-footer-main-pc #global-footer-main-pc-left .logo {
+  display: table;
+  width: 80%;
+  margin: 0 0 10px;
+}
+
+#global-footer #global-footer-main-pc #global-footer-main-pc-left .logo a {
+  display: table-cell;
+  height: 55px;
+  vertical-align: middle;
+}
+
+#global-footer #global-footer-main-pc #global-footer-main-pc-left .logo img {
+  max-height: 55px;
+}
+
+#global-footer #global-footer-main-pc #global-footer-main-pc-right {
+  width: 38%;
+}
+
+#global-footer #global-footer-main-pc #global-footer-main-pc-right #global-footer-main-pc-right-top {
+  float: right;
+}
+
+#global-footer #global-footer-main-pc #global-footer-main-pc-right .tel {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 32px;
+  min-height: 50px;
+}
+
+#global-footer #global-footer-main-pc #global-footer-main-pc-right .tel .tel-text {
+  padding-left: 0;
+  font-size: 14px;
+}
+
+#global-footer #global-footer-main-pc #global-footer-main-pc-right .tel .tel-number {
+  padding-left: 25px;
+  background-size: 20px auto;
+  font-size: 30px;
+}
+
+#global-footer #global-footer-main-pc #global-footer-main-pc-right .tel .tel-number:first-child {
+  margin-top: 8px;
+}
+
+#global-footer #global-footer-main-pc #global-footer-main-pc-right .mail {
+  display: inline-block;
+  margin-left: 5px;
+  margin-bottom: 0;
+  padding: 0 2%;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+#global-footer #global-footer-main-pc #global-footer-main-pc-right .line_btn {
+  display: inline-block;
+  margin-left: 5px;
+  margin-bottom: 0;
+  padding: 0 2%;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+#global-footer #global-footer-main-pc #global-footer-main-pc-right .mail span {
+  padding: 8px 0 8px 35px;
+}
+
+#global-footer #global-footer-main-pc #global-footer-main-pc-right .line_btn span {
+  padding: 8px 0 8px 35px;
+}
+
+#global-footer #global-footer-main-pc #global-footer-main-pc-left .address,
+#global-footer #global-footer-main-pc #global-footer-main-pc-right .info {
+  font-size: 12px;
+}
+
+#global-footer.fixed #global-footer-main-pc #global-footer-main-pc-left .address,
+#global-footer.fixed #global-footer-main-pc #global-footer-main-pc-right .info {
+  display: none;
+}
+
+#global-footer #global-footer-main-pc #global-footer-main-pc-right .info dl dt {
+  padding: 1px;
+  font-size: 11px;
+}
+
+#global-footer2 .copyright {
+  padding: 20px 0;
+  text-align: center;
+  clear: both;
+  font-weight: bold;
+}
+
+
+@media screen and (max-width:600px) {
+  #global-footer {
+    min-width: inherit;
+    padding-bottom: 90px;
+  }
+
+  #global-footer #global-footer-nav {
+    display: none;
+  }
+
+  #global-footer #global-footer-main-pc {
+    display: none;
+  }
+
+  .sp-gnav-fixed-none {
+    display: none;
+  }
+}
