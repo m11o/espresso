@@ -1,0 +1,157 @@
+#sp-modal {
+  display: none;
+}
+
+@media screen and (min-width:601px) {
+  #sp-modal {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width:600px) {
+  #sp-modal {
+    display: none;
+    background: #0000008f;
+    position: fixed;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+  }
+
+  #sp-modal .sp-modal-head {
+    text-align: right;
+    margin: 15px 15px 0 0;
+  }
+
+  #sp-modal .sp-modal-head .close-btn img {
+    width: 18px;
+  }
+
+  #sp-modal .sp-modal-main {
+    margin: 15px;
+    padding: 15px;
+    background: #fff;
+  }
+
+  #sp-modal .sp-modal-main {
+    margin: 15px;
+    padding: 15px;
+    background: #fff;
+  }
+
+  #sp-modal .sp-modal-main .sp-modal-main-line {
+    display: none;
+  }
+
+  #sp-modal .sp-modal-main .sp-modal-main-line .line-info {
+    margin-top: 20px;
+    padding: 20px 10px;
+    background: #e8f9e9;
+    border-radius: 6px;
+  }
+
+  #sp-modal .sp-modal-main .sp-modal-main-tel {
+    display: none;
+  }
+
+  #sp-modal .sp-modal-main .sp-modal-main-tel h2 {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #ccc;
+  }
+
+  #sp-modal .sp-modal-main .sp-modal-main-tel .date {
+    margin-bottom: 10px;
+  }
+
+  #sp-modal .sp-modal-main .sp-modal-main-tel .date dt {
+    font-weight: bold;
+  }
+
+  #sp-modal .sp-modal-main .sp-modal-main-tel .tel-flow {
+    margin-top: 20px;
+    padding: 20px 10px;
+    background: #fff9e0;
+    border-radius: 6px;
+  }
+
+  #sp-modal .sp-modal-main .sp-modal-main-tel .tel-flow h2 {
+    margin: 0 0 10px;
+    color: #493209;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #sp-modal .sp-modal-main .sp-modal-main-tel .tel-flow .comment-item {
+    margin: 5px 0;
+  }
+
+  #sp-modal .sp-modal-main .sp-modal-main-tel .tel-flow .comment-item .img {
+    float: left;
+    width: 21%;
+  }
+
+  #sp-modal .sp-modal-main .sp-modal-main-tel .tel-flow .comment-item p {
+    position: relative;
+    float: right;
+    width: 68%;
+    border: solid 1px #cdbaa9;
+    border-radius: 6px;
+    padding: 10px 2%;
+    text-align: center;
+    background: #fff;
+    font-size: 14px;
+  }
+
+  #sp-modal .sp-modal-main .sp-modal-main-tel .tel-flow .comment-item p:before {
+    content: "";
+    border: 12px solid transparent;
+    border-right: 12px solid #cdbaa9;
+    position: absolute;
+    top: 30%;
+    left: -24px;
+  }
+
+  #sp-modal .sp-modal-main .sp-modal-main-tel .tel-flow .comment-item p:after {
+    content: "";
+    border: 12px solid transparent;
+    border-right: 12px solid #fff;
+    position: absolute;
+    top: 30%;
+    left: -23px;
+  }
+
+  #sp-modal .sp-modal-main .sp-modal-main-tel .tel-flow .comment-item-right p:before {
+    content: "";
+    border: 12px solid transparent;
+    border-left: 12px solid #cdbaa9;
+    position: absolute;
+    top: 30%;
+    left: inherit;
+    right: -24px;
+  }
+
+  #sp-modal .sp-modal-main .sp-modal-main-tel .tel-flow .comment-item-right p:after {
+    content: "";
+    border: 12px solid transparent;
+    border-left: 12px solid #fff;
+    position: absolute;
+    top: 30%;
+    left: inherit;
+    right: -23px;
+  }
+
+  #sp-modal .sp-modal-main .sp-modal-main-tel .tel-flow .comment-item-right .img {
+    float: right;
+    width: 21%;
+  }
+
+  #sp-modal .sp-modal-main .sp-modal-main-tel .tel-flow .comment-item-right p {
+    float: left;
+    width: 68%;
+  }
+}
