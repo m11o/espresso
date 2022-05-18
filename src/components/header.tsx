@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-import { SITE_TITLE, ZIP, ADDRESS, TEL, TEL_WITHOUT_HYPHEN, SITE_NAME } from "./const"
+import { SITE_TITLE, ZIP, ADDRESS, TEL, TEL_WITHOUT_HYPHEN, SITE_NAME, WEEKDAY_BUSINESS_HOURS, WEEKEND_BUSINESS_HOURS, HOLIDAY_BUSINESS_HOURS } from "./const"
 
 const Header: React.FC = () => {
   return (
@@ -50,9 +50,9 @@ const Header: React.FC = () => {
               <div className="info">
                 <dl>
                   <dt>受付時間</dt>
-                  <dd>平日:AM9:00~12:00 PM15:00~20:30</dd>
-                  <dd>土曜:AM9:00~12:00 PM15:00~19:00</dd>
-                  <dd>祝日:9:00~12:00</dd>
+                  <dd>平日:{WEEKDAY_BUSINESS_HOURS}</dd>
+                  <dd>土曜:{WEEKEND_BUSINESS_HOURS}</dd>
+                  <dd>祝日:{HOLIDAY_BUSINESS_HOURS}</dd>
                 </dl>
                 <dl>
                   <dt>定休日</dt>
@@ -215,9 +215,9 @@ const Header: React.FC = () => {
 
             <dl className="date">
               <dt>受付時間</dt>
-              <dd>平日:AM9:00~12:00 PM15:00~20:30</dd>
-              <dd>土曜:AM9:00~12:00 PM15:00~19:00</dd>
-              <dd>祝日:9:00~12:00</dd>
+              <dd>平日:{WEEKDAY_BUSINESS_HOURS}</dd>
+              <dd>土曜:{WEEKEND_BUSINESS_HOURS}</dd>
+              <dd>祝日:{HOLIDAY_BUSINESS_HOURS}</dd>
             </dl>
             <dl className="date">
               <dt>定休日</dt>
