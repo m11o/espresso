@@ -1,7 +1,17 @@
 import React from "react";
 import Link from "next/link";
 
-import { SITE_TITLE, ZIP, ADDRESS, TEL, TEL_WITHOUT_HYPHEN, SITE_NAME, WEEKDAY_BUSINESS_HOURS, WEEKEND_BUSINESS_HOURS, HOLIDAY_BUSINESS_HOURS } from "./const"
+import {
+  SITE_TITLE,
+  ZIP,
+  ADDRESS,
+  TEL,
+  TEL_WITHOUT_HYPHEN,
+  SITE_NAME,
+  WEEKDAY_BUSINESS_HOURS,
+  WEEKEND_BUSINESS_HOURS,
+  HOLIDAY_BUSINESS_HOURS,
+} from "./const";
 
 const Header: React.FC = () => {
   return (
@@ -134,7 +144,11 @@ const Header: React.FC = () => {
         <div id="global-nav-sp" className="fixed " role="navigation">
           <p id="ff-sp-head-03" className="ff-sp-head"></p>
           <div id="ff-sp-contents">
-            <a id="ff-sp-03-tel" className="" href={`tel:${TEL_WITHOUT_HYPHEN}`}></a>
+            <a
+              id="ff-sp-03-tel"
+              className=""
+              href={`tel:${TEL_WITHOUT_HYPHEN}`}
+            ></a>
             <a
               id="ff-sp-03-line"
               className=""
